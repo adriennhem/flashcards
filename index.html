@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Flashcards Game</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Flashcards for JavaScript</h1>
+        <div class="row">
+            <div class="card" id="flashcard">
+                <div class="card-header"><h5 class="card-title">Question:</h5></div>
+                <div class="card-body">
+                    <div id="flashcard-text"></div>
+                    <div id="flashcard-answer"></div>
+                </div>
+                <div class="card-footer" id="flashcard-actions">
+                    <button type="button" class="btn btn-primary" id="button-answer">View Answer</button>
+                    <button type="button" class="btn btn-secondary" id="button-next">Next Card</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="application.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* card */
+h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.card {
+    width: 500px;
+    margin: 50px auto 0 auto;
+}
+
+#flashcard-answer {
+    padding: 10px 0;
+};
